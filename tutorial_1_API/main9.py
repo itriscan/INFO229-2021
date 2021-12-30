@@ -14,7 +14,7 @@ class Item(BaseModel):
 
 app = FastAPI()
 
-
+# con put se actualiza un item existente
 @app.put("/items/{item_id}")
 async def create_item(item_id: int, item: Item, q: Optional[str] = None):
     result = {"item_id": item_id, **item.dict()}

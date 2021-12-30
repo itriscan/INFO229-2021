@@ -19,3 +19,7 @@ async def read_user_item(
             {"description": "This is an amazing item that has a long description"}
         )
     return item
+
+
+# se puede acceder usando por ejemplo:
+#http://127.0.0.1:8000/users/2/items/1

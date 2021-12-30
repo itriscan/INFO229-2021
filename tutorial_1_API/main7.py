@@ -19,3 +19,5 @@ app = FastAPI()
 @app.post("/items/")
 async def create_item(item: Item):
     return item
+
+# se accede a travez de http://127.0.0.1:8000/docs 
