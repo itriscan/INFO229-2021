@@ -1,0 +1,14 @@
+¿Cuál es la diferencia entre una Imágen Docker y un Contenedor Docker?
+    Imagen docker corresponde a los archivos bases (estaticas) que nos sirven para montar el contenedor docker. que puede ser modificado e incluso se puede comunicar con otros contenedores.
+
+¿Cuál es la diferencia entre el archivo Dockerfile y el archivo Docker-compose.yml?
+
+Un Dockerfile es una serie de instrucciones que sirven para crear una imagen docker
+
+
+
+
+
+¿Si utilizo un contenedor que contiene una Base de Datos (Redis, Mysql u otro), cómo y dónde se guardan los datos?
+
+¿Qué es un port? ¿Por qué algunas imágenes requieren hacer un bind entre distintos puertos?
